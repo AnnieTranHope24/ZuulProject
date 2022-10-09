@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ A\ Person,\ placed\ in\ a\ Room,\ is\ a\ non-player\ character\ who\ can\ talk\r\n\ when\ the\ player\ enters\ the\ room.\r\n\ Person\ has\ two\ fields\:\ name\ and\ gotItem.\r\n\ name\ is\ the\ name\ of\ the\ NPC.\r\n\ gotItem\ shows\ whether\ or\ not\ the\ NPC\ received\ an\ item\ \r\n\ from\ the\ player\ and\ gave\ the\ player\ help.\r\n\ NPC\ will\ give\ the\ player\ help\ if\ the\ player\ gives\ him/her\r\n\ an\ item.\ After\ the\ NPC\ receives\ an\ item\ and\ gives\ the\ player\r\n\ help,\ NPC\ cannot\ continue\ to\ receive\ items\ and\ give\ help.\r\n
+comment1.params=name
+comment1.target=Person(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ItemKeeper.\r\n
+comment2.params=
+comment2.target=java.lang.String\ sayHi()
+comment2.text=\r\n\ Greet\ when\ the\ player\ enters\ the\ room.\r\n\ @return\ a\ String.\r\n
+comment3.params=
+comment3.target=java.lang.String\ giveHelp()
+comment3.text=\r\n\ Agree\ to\ give\ the\ player\ help\ only\ if\ never\ gave\ help\ to\ the\ player\ before.\r\n\ @return\ a\ notification\ if\ NPC\ successfully\ gives\ help,\ null\ if\ doesn't.\r\n
+comment4.params=
+comment4.target=boolean\ gotItem()
+comment4.text=\r\n\ Check\ if\ the\ NPC\ received\ an\ item\ from\ the\ player.\r\n\ @return\ true\ if\ the\ NPC\ received\ an\ item\ from\ the\ player,\ false\ if\ didn't.\r\n
+numComments=5
